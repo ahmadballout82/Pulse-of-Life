@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="نبض الحياة نموذج موقع مركز طبي متكامل بتصميم عصري">
+  <title>نبض الحياة | مركز طبي متكامل</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- شريط علوي -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span>رعاية تبدأ بالاهتمام</span>
+      <span>موقع تجريبي لمعرض الأعمال وليس مركزًا طبيًا فعليًا</span>
+    </div>
+  </div>
+
+  <!-- القائمة -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+
+      <a href="#home" class="logo" aria-label="نبض الحياة الرئيسية">
+        <span class="logo-icon">✚</span>
+        <span class="logo-text">
+          <strong>نبض الحياة</strong>
+          <small>MEDICAL CENTER</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a href="#home" class="nav-link active">الرئيسية</a>
+        <a href="#about" class="nav-link">من نحن</a>
+        <a href="#specialties" class="nav-link">التخصصات</a>
+        <a href="#services" class="nav-link">الخدمات</a>
+        <a href="#doctors" class="nav-link">الأطباء</a>
+        <a href="#contact" class="nav-link">تواصل معنا</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#appointment" class="btn btn-primary header-book">احجز موعدًا</a>
+
+        <button class="menu-toggle" id="menuToggle" type="button"
+                aria-label="فتح القائمة" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- الرئيسية -->
+    <section class="hero" id="home">
+      <div class="hero-background"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <span class="hero-label">مرحبًا بك في نبض الحياة</span>
+
+          <h1>
+            صحتك تستحق
+            <span>رعاية استثنائية</span>
+          </h1>
+
+          <p>
+            تجربة طبية متكاملة تجمع بين الخبرة والاهتمام
+            وبيئة مريحة تمنحك الثقة في كل خطوة
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#appointment" class="btn btn-primary">احجز موعدك الآن</a>
+            <a href="#specialties" class="btn btn-outline">اكتشف تخصصاتنا</a>
+          </div>
+
+          <div class="hero-features">
+            <div class="hero-feature">
+              <span class="feature-symbol">✚</span>
+              <span>رعاية متكاملة</span>
+            </div>
+
+            <div class="hero-feature">
+              <span class="feature-symbol">♡</span>
+              <span>اهتمام بكل التفاصيل</span>
+            </div>
+
+            <div class="hero-feature">
+              <span class="feature-symbol">✦</span>
+              <span>تجربة مريحة</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1100&q=85"
+              alt="طبيبة في بيئة طبية احترافية">
+          </div>
+
+          <div class="hero-floating-card">
+            <span class="floating-icon">♡</span>
+            <div>
+              <strong>رعايتك أولويتنا</strong>
+              <small>نهتم براحتك في كل زيارة</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- شريط المميزات -->
+    <section class="features-strip">
+      <div class="container features-grid">
+
+        <div class="feature-box">
+          <span class="feature-box-icon">✚</span>
+          <div>
+            <h3>تخصصات متنوعة</h3>
+            <p>خدمات طبية في مجالات متعددة</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <span class="feature-box-icon">♡</span>
+          <div>
+            <h3>رعاية باهتمام</h3>
+            <p>راحة المراجع في مقدمة أولوياتنا</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <span class="feature-box-icon">✧</span>
+          <div>
+            <h3>بيئة عصرية</h3>
+            <p>مساحات مريحة وتصميم حديث</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <span class="feature-box-icon">◷</span>
+          <div>
+            <h3>حجز سهل</h3>
+            <p>واجهة بسيطة لتنظيم المواعيد</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- من نحن -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-images">
+          <div class="about-main-image">
+            <img
+              src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1100&q=85"
+              alt="فريق طبي داخل مركز حديث"
+              loading="lazy">
+          </div>
+
+          <div class="about-small-image">
+            <img
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=650&q=85"
+              alt="طبيب يقدم استشارة طبية"
+              loading="lazy">
+          </div>
+
+          <div class="about-image-badge">
+            <span>✚</span>
+            <strong>لأن صحتك تهمنا</strong>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-label">من نحن</span>
+
+          <h2 class="section-title">
+            نهتم بصحتك
+            <span>ونعتني براحتك</span>
+          </h2>
+
+          <p>
+            يقدم نبض الحياة تصورًا لمركز طبي عصري
+            يجمع بين التخصصات المختلفة والاهتمام الإنساني
+            ليمنح كل مراجع تجربة منظمة ومريحة
+          </p>
+
+          <p>
+            نؤمن بأن الرعاية تبدأ من حسن الاستقبال
+            ووضوح المعلومات وسهولة الوصول إلى الخدمات
+          </p>
+
+          <div class="about-list">
+            <div class="about-list-item">
+              <span>✓</span>
+              <p>تجربة حجز بسيطة وواضحة</p>
+            </div>
+
+            <div class="about-list-item">
+              <span>✓</span>
+              <p>عرض منظم للتخصصات الطبية</p>
+            </div>
+
+            <div class="about-list-item">
+              <span>✓</span>
+              <p>تصميم مناسب للكمبيوتر والهاتف</p>
+            </div>
+          </div>
+
+          <a href="#services" class="btn btn-primary">تعرف على خدماتنا</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- التخصصات -->
+    <section class="section specialties-section" id="specialties">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">تخصصاتنا الطبية</span>
+          <h2 class="section-title">
+            رعاية متكاملة <span>لكل احتياجاتك</span>
+          </h2>
+          <p>
+            مجموعة من التخصصات الطبية ضمن تجربة منظمة
+            تساعدك في الوصول إلى القسم المناسب بسهولة
+          </p>
+        </div>
+
+        <div class="specialties-grid">
+
+          <article class="specialty-card">
+            <div class="specialty-icon">♡</div>
+            <h3>أمراض القلب</h3>
+            <p>رعاية متخصصة لصحة القلب والأوعية الدموية</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+          <article class="specialty-card">
+            <div class="specialty-icon">✚</div>
+            <h3>الطب العام</h3>
+            <p>استشارات طبية ومتابعة للحالة الصحية العامة</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+          <article class="specialty-card">
+            <div class="specialty-icon">◈</div>
+            <h3>طب الأسنان</h3>
+            <p>خدمات العناية بصحة الأسنان والفم</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+          <article class="specialty-card">
+            <div class="specialty-icon">✿</div>
+            <h3>طب الأطفال</h3>
+            <p>متابعة صحة الأطفال في مختلف مراحل النمو</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+          <article class="specialty-card">
+            <div class="specialty-icon">✧</div>
+            <h3>الجلدية</h3>
+            <p>استشارات للعناية بصحة البشرة والجلد</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+          <article class="specialty-card">
+            <div class="specialty-icon">◎</div>
+            <h3>العظام والمفاصل</h3>
+            <p>متابعة الحالات المرتبطة بالعظام والحركة</p>
+            <a href="#appointment">احجز موعدًا <span>←</span></a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- بانر -->
+    <section class="care-banner">
+      <div class="container care-banner-content">
+        <span>نبض الحياة</span>
+        <h2>رعاية قريبة منك واهتمام يرافقك</h2>
+        <p>لأن كل تفاصيل رحلتك الصحية تستحق العناية</p>
+        <a href="#appointment" class="btn btn-white">احجز موعدك</a>
+      </div>
+    </section>
+
+    <!-- الخدمات -->
+    <section class="section services-section" id="services">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">خدماتنا</span>
+          <h2 class="section-title">
+            خدمات مصممة <span>لراحتك</span>
+          </h2>
+          <p>
+            نعرض مجموعة من الخدمات التي يمكن أن يقدمها
+            مركز طبي متكامل ضمن بيئة عصرية
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=85"
+                alt="استشارة طبية"
+                loading="lazy">
+            </div>
+            <div class="service-content">
+              <span>01</span>
+              <h3>الاستشارات الطبية</h3>
+              <p>متابعة واستشارات ضمن تخصصات طبية متنوعة</p>
+              <a href="#appointment">احجز موعدًا ←</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=85"
+                alt="مختبر طبي"
+                loading="lazy">
+            </div>
+            <div class="service-content">
+              <span>02</span>
+              <h3>الفحوصات المخبرية</h3>
+              <p>عرض لخدمات التحاليل والفحوصات الطبية</p>
+              <a href="#appointment">احجز موعدًا ←</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=85"
+                alt="رعاية صحية"
+                loading="lazy">
+            </div>
+            <div class="service-content">
+              <span>03</span>
+              <h3>الفحوصات الدورية</h3>
+              <p>برامج متابعة صحية وفحوصات دورية منظمة</p>
+              <a href="#appointment">احجز موعدًا ←</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- الأطباء -->
+    <section class="section doctors-section" id="doctors">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">الفريق الطبي</span>
+          <h2 class="section-title">
+            تعرف على <span>فريقنا</span>
+          </h2>
+          <p>
+            شخصيات وأسماء افتراضية لعرض شكل بطاقات الأطباء
+            داخل الموقع التجريبي
+          </p>
+        </div>
+
+        <div class="doctors-grid">
+
+          <article class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=750&q=85"
+                alt="صورة توضيحية لطبيبة"
+                loading="lazy">
+            </div>
+            <div class="doctor-info">
+              <span>الطب العام</span>
+              <h3>د سارة أحمد</h3>
+              <p>ملف طبي افتراضي للعرض</p>
+              <a href="#appointment">احجز موعدًا</a>
+            </div>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=750&q=85"
+                alt="صورة توضيحية لطبيب"
+                loading="lazy">
+            </div>
+            <div class="doctor-info">
+              <span>أمراض القلب</span>
+              <h3>د عمر خالد</h3>
+              <p>ملف طبي افتراضي للعرض</p>
+              <a href="#appointment">احجز موعدًا</a>
+            </div>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=750&q=85"
+                alt="صورة توضيحية لطبيبة"
+                loading="lazy">
+            </div>
+            <div class="doctor-info">
+              <span>طب الأطفال</span>
+              <h3>د ليان محمود</h3>
+              <p>ملف طبي افتراضي للعرض</p>
+              <a href="#appointment">احجز موعدًا</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- الحجز -->
+    <section class="section appointment-section" id="appointment">
+      <div class="container appointment-grid">
+
+        <div class="appointment-content">
+          <span class="section-label">حجز المواعيد</span>
+
+          <h2 class="section-title">
+            خطوتك الأولى <span>تبدأ هنا</span>
+          </h2>
+
+          <p>
+            اختر التخصص والموعد المناسب لك من خلال
+            نموذج الحجز التجريبي
+          </p>
+
+          <div class="appointment-benefits">
+            <div>
+              <span>✓</span>
+              <p>واجهة حجز واضحة وسهلة</p>
+            </div>
+
+            <div>
+              <span>✓</span>
+              <p>اختيار التخصص والتاريخ</p>
+            </div>
+
+            <div>
+              <span>✓</span>
+              <p>تأكيد تجريبي داخل الموقع</p>
+            </div>
+          </div>
+
+          <div class="appointment-note">
+            <strong>تنويه مهم</strong>
+            <p>
+              هذا الموقع نموذج لمعرض الأعمال
+              ولا يقدم خدمات طبية أو حجوزات فعلية
+            </p>
+          </div>
+        </div>
+
+        <div class="appointment-form-card">
+          <div class="form-heading">
+            <span>نموذج تجريبي</span>
+            <h3>احجز موعدك</h3>
+            <p>املأ البيانات التالية لتجربة النموذج</p>
+          </div>
+
+          <form id="appointmentForm">
+
+            <div class="form-field">
+              <label for="patientName">الاسم الكامل</label>
+              <input type="text" id="patientName"
+                     placeholder="أدخل الاسم الكامل" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="patientPhone">رقم الهاتف</label>
+                <input type="tel" id="patientPhone"
+                       placeholder="أدخل رقم الهاتف" required>
+              </div>
+
+              <div class="form-field">
+                <label for="specialty">التخصص الطبي</label>
+                <select id="specialty" required>
+                  <option value="">اختر التخصص</option>
+                  <option value="general">الطب العام</option>
+                  <option value="cardiology">أمراض القلب</option>
+                  <option value="dental">طب الأسنان</option>
+                  <option value="pediatrics">طب الأطفال</option>
+                  <option value="dermatology">الجلدية</option>
+                  <option value="orthopedics">العظام والمفاصل</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="appointmentDate">التاريخ</label>
+                <input type="date" id="appointmentDate" required>
+              </div>
+
+              <div class="form-field">
+                <label for="appointmentTime">الوقت</label>
+                <select id="appointmentTime" required>
+                  <option value="">اختر الوقت</option>
+                  <option value="09:00">09:00 صباحًا</option>
+                  <option value="10:00">10:00 صباحًا</option>
+                  <option value="11:00">11:00 صباحًا</option>
+                  <option value="12:00">12:00 ظهرًا</option>
+                  <option value="13:00">01:00 ظهرًا</option>
+                  <option value="14:00">02:00 ظهرًا</option>
+                  <option value="15:00">03:00 عصرًا</option>
+                  <option value="16:00">04:00 عصرًا</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">
+              تأكيد الموعد التجريبي
+            </button>
+
+            <p class="form-feedback" id="appointmentFeedback"
+               role="status" aria-live="polite"></p>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- التواصل -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+          <span class="section-label">تواصل معنا</span>
+
+          <h2 class="section-title">
+            يسعدنا <span>التواصل معك</span>
+          </h2>
+
+          <p>
+            يمكنك تجربة نموذج الرسائل التالي
+            لاستعراض طريقة تفاعل الموقع مع الزوار
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span>✉</span>
+              <div>
+                <h3>البريد الإلكتروني</h3>
+                <p>لا يوجد بريد استقبال فعلي</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>⌖</span>
+              <div>
+                <h3>الموقع</h3>
+                <p>مركز افتراضي لأغراض التصميم</p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>◷</span>
+              <div>
+                <h3>المواعيد</h3>
+                <p>مواعيد توضيحية وليست حجوزات حقيقية</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>أرسل رسالة</h3>
+          <p>هذا النموذج مخصص لتجربة التصميم</p>
+
+          <form id="contactForm">
+
+            <div class="form-field">
+              <label for="contactName">الاسم</label>
+              <input type="text" id="contactName"
+                     placeholder="اسمك الكامل" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contactEmail">البريد الإلكتروني</label>
+              <input type="email" id="contactEmail"
+                     placeholder="example@email.com" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contactMessage">الرسالة</label>
+              <textarea id="contactMessage" rows="5"
+                        placeholder="اكتب رسالتك هنا" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">
+              إرسال رسالة تجريبية
+            </button>
+
+            <p class="form-feedback" id="contactFeedback"
+               role="status" aria-live="polite"></p>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <a href="#home" class="logo footer-logo">
+            <span class="logo-icon">✚</span>
+            <span class="logo-text">
+              <strong>نبض الحياة</strong>
+              <small>MEDICAL CENTER</small>
+            </span>
+          </a>
+
+          <p>
+            نموذج موقع مركز طبي متكامل صُمم
+            لعرض تصميم ويب احترافي وتجربة استخدام مريحة
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>روابط سريعة</h3>
+          <a href="#home">الرئيسية</a>
+          <a href="#about">من نحن</a>
+          <a href="#specialties">التخصصات</a>
+          <a href="#services">الخدمات</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>استكشف</h3>
+          <a href="#doctors">الفريق الطبي</a>
+          <a href="#appointment">حجز المواعيد</a>
+          <a href="#contact">تواصل معنا</a>
+        </div>
+
+        <div class="footer-news">
+          <h3>تنويه</h3>
+          <p>
+            هذا الموقع مشروع تجريبي لمعرض الأعمال
+            ولا يمثل مركزًا طبيًا حقيقيًا
+            ولا يوفر خدمات طبية فعلية
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> نبض الحياة — نموذج تصميم</p>
+        <p>تصميم وتطوير ويب احترافي</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- العودة للأعلى -->
+  <button class="back-to-top" id="backToTop"
+          type="button" aria-label="العودة للأعلى">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
